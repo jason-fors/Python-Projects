@@ -1,9 +1,8 @@
 """
-Create a class that utilizes the concept of abstraction.
-1. Your class should contain at least one abstract method and one regular method.
-2. Create a child class that defines the implementation of its parents abstract method.
-3. Create an object that utilizes both the parent and child methods.
-4. Add comments throughout your Python explaining your code.
+Creating a class that utilizes the concept of abstraction.
+1. Contains an abstract method and one regular method.
+2. Includes a child class that defines the implementation of its parent's abstract method.
+3. Creates an object that utilizes both the parent and child methods.
 """
 
 from abc import ABC, abstractmethod
