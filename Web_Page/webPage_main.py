@@ -72,8 +72,9 @@ class ParentWindow(Frame):
 
 
 if __name__ == "__main__":
-    webPage_functions.makeWebPage("pyWebPage.html")
-    textContent = webPage_functions.getBody("pyWebPage.html")
+    webPage_functions.makeWebPage("pyWebPage.html")  # To create the web page, if it doesn't already exist. 
+    textContent = webPage_functions.getBody("pyWebPage.html")  # Get the contents of the body of the web page.
+    # Start the GUI window and keep it open
     root = Tk()
     mainWindow = ParentWindow(root)
     root.mainloop

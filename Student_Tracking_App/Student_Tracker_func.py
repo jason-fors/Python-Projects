@@ -216,7 +216,6 @@ def onUpdate(self):
                     with conn:
                         cursor = conn.cursor()
                         cursor.execute("""UPDATE tbl_students SET students_phone = '{0}',students_email = '{1}', students_course = '{2}' WHERE students_fullname = '{3}'""".format(var_phone,var_email,var_course,var_value))
-#                        cursor.execute("""UPDATE tbl_phonebook SET col_phone = '{0}',col_email = '{1}' WHERE col_fullname = '{2}'""".format(var_phone,var_email,var_value))
                         onClear(self)
                         conn.commit()
                 else:
